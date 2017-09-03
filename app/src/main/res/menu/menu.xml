@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_account_settings"
+            android:icon="@drawable/ic_build_black_18dp"
+            android:title="@string/account_settings" />
+
+        <item
+            android:id="@+id/nav_drawer_help"
+            android:icon="@drawable/ic_help_black_18dp"
+            android:title="@string/help" />
+
+        <item
+            android:id="@+id/nav_drawer_feedback"
+            android:icon="@drawable/ic_feedback_black_18dp"
+            android:title="@string/feedback" />
+    </group>
+</menu>
